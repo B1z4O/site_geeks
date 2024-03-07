@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 24px;
+}
+
+header,
+section h2 {
+    font-family: "Madimi One", sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 164);
+    font-family: "Comfortaa", sans-serif;
+}
+
+body > header {
+    margin: 0 auto;
+    padding: 16px 0;
+    background-color: yellow;
+    color: rgb(73, 122, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-wrap: nowrap;
+}
+
+h1 {
+    margin-left: 16px;
+    font-size: 40px;
+}
+
+h2,
+section p {
+    padding-top: 24px;
+    font-size: 35px;
+    color: rgb(128, 173, 60);
+}
+
+h3 {
+    color: rgb(73, 122, 0);
+    font-size: 24px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+header li {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+header li a {
+    color: rgb(73, 122, 0);
+    margin-right: 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.container {
+    align-items: center;
+}
+
+section img {
+    margin-top: 50px;
+    max-width: 720px;
+    align-items: center;
+}
+
+section p {
+    font-size: 20px;
+}
+
+#manga,
+#series {
+    margin-top: 20px;
+    background-color: rgb(255, 255, 140);
+    padding: 30px 30px;
+}
+
+#anime,
+#films {
+    margin-top: 20px;
+    background-color: rgb(255, 255, 150);
+    padding: 30px 30px;
+}
+
+#contact h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#contact h3 {
+    font-size: 16px;
+}
+
+#contact .container{
+    margin-right: 800px;
+    display: block;
+}
+
+#contact a img {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    text-wrap: nowrap;
+}
+
+.contact-methods div {
+    background-color: rgb(255, 255, 140);
+    padding: 10px 10px;
+}
+
+#social-link {
+    max-height: 90px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    height: 180px;
+    resize: none;
+}
+
+form button {
+    background-color: rgb(128, 173, 60);
+    color: rgb(255, 255, 164);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(153, 255, 0);
+}
+
+input:focus,
+textarea:focus {
+    outline-color: rgb(153, 255, 0);
+}
+
+#tohome {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(73, 122, 0);
+    padding: 6px 6px;
+    background-color: rgb(255, 255, 140);
+}
+
+footer {
+    padding: 16px 0;
+    background-color: yellow;
+    color: rgb(73, 122, 0);
+    text-wrap: nowrap;
+}
+
+footer .container {
+    margin: 10px;
+}

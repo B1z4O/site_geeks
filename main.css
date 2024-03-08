@@ -66,6 +66,7 @@ header li a {
 }
 
 section img {
+    width: 720px;
     margin-top: 50px;
     max-width: 720px;
     align-items: center;
